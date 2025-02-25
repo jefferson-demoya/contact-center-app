@@ -1,0 +1,49 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 48%;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .agent-chart {
+    width: 70%;
+  }
+  
+  .agent-list {
+    width: 30%;
+  }
+  
+  .clients-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .client-list {
+    width: 30%;
+  }
+  
+  .client-charts {
+    width: 70%;
+  }
+  

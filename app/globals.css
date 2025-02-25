@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+h1{
+  color: white;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-animated;
+}
+
+/* parametros animacion */
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/*  animación al fondo */
+@layer utilities {
+  .bg-animated {
+    background: linear-gradient(-45deg, #a8cffc, #bfdbfe, #c6e5fa, #adc8d6, #ade5ff);
+    background-size: 300% 300%;
+    animation: moveGradient 10s ease infinite;
+  }
+}
