@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Contact Center, prueba tecnica
 
-## Getting Started
+Este proyecto es una **prueba tecnica para un contact center**, desarrollado con **Next.js**, **tailwind** y **WebSockets**, que permite ver en tiempo real la lista de **agentes y clientes**, aplicar **filtros avanzados** y visualizar **gráficos de estado**.
 
-First, run the development server:
+## 🚀 Tecnologías Usadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js** (App Router)  
+- **Tailwind CSS** (Estilos)  
+- **WebSockets (ws)** (Comunicación en tiempo real)  
+- **Chart.js + React-Chartjs-2** (Gráficos interactivos)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Requisitos Previos
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Antes de instalar el proyecto, asegúrate de tener:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Node.js** (v18 o superior) → [Descargar Node.js](https://nodejs.org/)
+- **Git** → [Descargar Git](https://git-scm.com/)
+- **WebSockets (`ws`)** → Se instala automáticamente con las dependencias 
 
-## Learn More
+## ⚙️ Instalación
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clona este repositorio** en tu máquina local:
+ o descargalo desde git
+   git clone https://github.com/jefferson-demoya/contact-center-app
